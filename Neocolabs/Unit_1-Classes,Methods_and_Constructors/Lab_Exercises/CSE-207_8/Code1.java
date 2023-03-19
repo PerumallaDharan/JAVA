@@ -1,3 +1,49 @@
+// Design a class named MyPoint to represent a point with x- and y-coordinates. 
+// The class contains:
+
+// ■ The data fields x and y that represent the coordinates with getter methods.
+
+// ■ A no-arg constructor that creates a point (0, 0).
+
+// ■ A constructor that constructs a point with specified coordinates.
+
+// ■ A method named distance that returns the distance from this point to a 
+// specified point of the MyPoint type.
+
+// ■ A method named distance that returns the distance from this point to 
+// another point with specified x- and y-coordinates (round it to two decimal 
+// place).
+// Input format
+
+// x1 y1
+
+// x2 y2
+
+// <all are double>
+// Output format
+
+// The distance between (x1, y1) and (x2, y2) is: <value>
+
+
+// Sample testcases
+// Input 1
+
+// 0 0
+// 4 4
+
+// Output 1
+
+// The distance between (0.0, 0.0) and (4.0, 4.0) is: 5.66
+
+// Input 2
+
+// -1 -5
+// -10 -20
+
+// Output 2
+
+// The distance between (-1.0, -5.0) and (-10.0, -20.0) is: 17.49
+
 import java.util.Scanner;
 
 public class Code1 {
