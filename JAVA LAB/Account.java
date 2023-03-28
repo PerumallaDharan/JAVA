@@ -2,14 +2,14 @@
 class Account_demo {
     private int id;
     private double bal, annual_rate;
-    private double monthly_rate, monthly;
+    // private double monthly_rate, monthly;
 
     Account_demo() {
         id = 0;
         bal = 0;
         annual_rate = 3;
-        monthly_rate = 0;
-        monthly = 0;
+        // monthly_rate = 0;
+        // monthly = 0;
     }
 
     Account_demo(int id, double bal) {
@@ -41,13 +41,13 @@ class Account_demo {
         return this.annual_rate;
     }
 
-    public double getmonthly_rate(double monthly_rate) {
-        return this.monthly_rate = monthly_rate;
-    }
+    // public double getmonthly_rate(double monthly_rate) {
+    //     return this.monthly_rate = monthly_rate;
+    // }
 
-    public double getmonthly(double monthly) {
-        return this.monthly = monthly;
-    }
+    // public double getmonthly(double monthly) {
+    //     return this.monthly = monthly;
+    // }
 
     void withdraw(double withdraw_amount) {
         if (bal - withdraw_amount < 0) {

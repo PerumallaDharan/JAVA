@@ -20,6 +20,6 @@ class This5 {
     }
 
     public static void main(String args[]) {
-        This5 a = new This5();
+        new This5();
     }
 }

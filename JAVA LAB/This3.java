@@ -13,7 +13,6 @@ class demo {
 
 class This3 {
     public static void main(String args[]) {
-        demo a;
-        demo b = new demo(10);
+        new demo(10);
     }
 }
